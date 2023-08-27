@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.gruzoverkoub"
+version="0.0.1"
+name="gruzoverkoub"
+provider-name="gruzoverflow">
+<requires>
+  <import addon="xbmc.python" version="3.0.1"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="resources/main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en_GB">Plugin for Gruzoverkoub</summary>
+  <description lang="en_GB">Random coubs non-stop. All coubs you can watch on the coub official website coub.com</description>
+  <disclaimer lang="en_GB">All coubs you can watch on the coub official website coub.com</disclaimer>
+  <license>GPL-3.0-only	</license>
+  <assets>
+    <icon>resources/icon.png</icon>
+    <fanart>resources/fanart.jpg</fanart>
+  </assets>
+  <news>First release</news>
+  <website>https://gruzoverkoub.ru/</website>
+  <source>https://github.com/gruzoverflow/plugin.video.gruzoverkoub</source>
+</extension>
+</addon>
