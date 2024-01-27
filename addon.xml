@@ -10,15 +10,17 @@ provider-name="gruzoverflow">
   <provides>video</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
-  <summary lang="en_GB">Plugin for Gruzoverkoub</summary>
-  <description lang="en_GB">Random coubs non-stop. All coubs you can watch on the coub official website coub.com</description>
-  <disclaimer lang="en_GB">All coubs you can watch on the coub official website coub.com</disclaimer>
+  <summary lang="en_GB">gruzoverkoub.ru</summary>
+  <description lang="en_GB">Random coubs non-stop. All coubs you can watch on the coub official website coub.com. Attention 18+ may be attended by adult content.</description>
+  <disclaimer lang="en_GB">Random coubs non-stop. All coubs you can watch on the coub official website coub.com. Attention 18+ may be attended by adult content.</disclaimer>
+  <platform>all</platform>
   <license>GPL-3.0-only	</license>
   <assets>
     <icon>resources/icon.png</icon>
     <fanart>resources/fanart.jpg</fanart>
   </assets>
-  <news>First release</news>
+  <news>- View random coubs in Kodi</news>
+  <forum>https://t.me/gruzoverkoub</forum>
   <website>https://gruzoverkoub.ru/</website>
   <source>https://github.com/gruzoverflow/plugin.video.gruzoverkoub</source>
 </extension>
